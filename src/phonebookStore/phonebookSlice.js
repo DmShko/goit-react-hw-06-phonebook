@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 import Notiflix from 'notiflix';
 import { nanoid } from 'nanoid';
 
-const phonebookInitialState = {};
+const phonebookInitialState = {contacts: [], filter: ''};
 
 const phonebookSlice = createSlice(
     {
